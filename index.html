@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Mellor - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">PM</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">PATRICK MELLOR</h1>
+            <div class="title-underline"></div>
+            <p class="hero-subtitle">Full Stack Developer | Creative Problem Solver</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get in Touch</button>
+            </div>
+        </div>
+        <div class="animated-background">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer dedicated to creating innovative solutions and beautiful user experiences. With a focus on modern web technologies and best practices, I bring ideas to life through clean, efficient code.</p>
+            <div class="skills">
+                <div class="skill-card">
+                    <h3>💻 Web Development</h3>
+                    <p>Building responsive and interactive web applications</p>
+                </div>
+                <div class="skill-card">
+                    <h3>🎨 UI/UX Design</h3>
+                    <p>Creating intuitive and visually appealing interfaces</p>
+                </div>
+                <div class="skill-card">
+                    <h3>⚙️ Backend Development</h3>
+                    <p>Developing robust server-side applications and APIs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">Portfolio Website</div>
+                    <p>A modern, responsive portfolio website showcasing skills and projects.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">Project 2</div>
+                    <p>Your next amazing project will go here.</p>
+                    <div class="project-tags">
+                        <span class="tag">Coming Soon</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">Project 3</div>
+                    <p>Your next amazing project will go here.</p>
+                    <div class="project-tags">
+                        <span class="tag">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind? Let's work together!</p>
+            <div class="contact-links">
+                <a href="mailto:contact@patrickmellor.com" class="contact-link">📧 Email</a>
+                <a href="https://linkedin.com" class="contact-link" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com" class="contact-link" target="_blank">🐙 GitHub</a>
+                <a href="https://twitter.com" class="contact-link" target="_blank">𝕏 Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Patrick Mellor. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
